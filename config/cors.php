@@ -32,3 +32,19 @@ return [
     'supports_credentials' => false,
 
 ];
+
+
+
+
+
+
+// return [
+//     'paths' => ['api/*', 'sanctum/csrf-cookie'], // Cho phép API & CSRF cookie
+//     'allowed_methods' => ['*'],
+//     'allowed_origins' => ['http://localhost:5173'], // URL React
+//     'allowed_origins_patterns' => [],
+//     'allowed_headers' => ['*'],
+//     'exposed_headers' => [],
+//     'max_age' => 0,
+//     'supports_credentials' => true, // ✅ Quan trọng
+// ];
